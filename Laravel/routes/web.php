@@ -12,5 +12,3 @@ Route::get('/produkAja', [ProdukController::class, 'index']);
 // Tambahkan route GET ke /dashboard yang memanggil method index() dari DashboardController
 
 Route::get('/products', [ProductController::class, 'index'])->name('product');
-
-Route::get('/welcome', [ProductController::class, 'welcome'])->name('welcome');

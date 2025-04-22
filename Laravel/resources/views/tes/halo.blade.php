@@ -1,1 +1,0 @@
-halo dari blade
